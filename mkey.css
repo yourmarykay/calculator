@@ -44,7 +44,9 @@ body{
 }
 .table-volume.change-inputs,
 #biggestdirectorVal2,
-#biggestdirectorVal3{
+#biggestdirectorVal3,
+.table-volume-sm.change-inputs,
+#directorVal{
     width: 50px;
 }
 .b-ed{
@@ -375,7 +377,7 @@ input#biggestdirectorBounusNd[type='range']::-moz-range-thumb{
     background: #fff;
 }
 .radioBtn-tooltip__small{
-    display: none;
+    /*display: none;*/
     padding: 0 20px;
     /*position: absolute;*/
     /*border: 1px solid #ed7fa6;*/
@@ -410,6 +412,7 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 .top-after-btns-item{
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 .top-after-btns-item > label{
     padding-bottom: 0;
@@ -501,8 +504,8 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
     background: transparent;
     border: 2px solid #e74783;
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
     color: #e74783;
     font-size: 24px;
     line-height: 0.5;
