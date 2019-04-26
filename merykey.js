@@ -1121,7 +1121,7 @@ document.addEventListener('DOMContentLoaded', function() {
         function minusShortTable(){
         var allTr = document.querySelectorAll('.table-rows-group-sm');
         var tableShortChangeRowspan = document.querySelector('#tableShortChangeRowspan'); // добавляем значение rowspan
-        tableShortChangeRowspan.setAttribute('rowspan', allTr.length + 1);
+        tableShortChangeRowspan.setAttribute('rowspan', allTr.length - 1);
             
         if(allTr.length >= 2) {
             var deleteElement = document.querySelector('.table-rows-group-sm:last-child');
