@@ -508,7 +508,7 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 }
 .table-btn-container-small{
     position: absolute;
-    right: 210px;
+    right: 180px;
     top: calc(50% - 15px);
 }
 .table-btn{
