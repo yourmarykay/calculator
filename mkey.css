@@ -463,6 +463,7 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 #firstLinePercent
 {
     width: 30px;
+    text-align: center;
 }
 .results-inputs.table-percent{
     text-align: center;
@@ -638,6 +639,7 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 #biggestdirectorNum21,
 #biggestdirectorNum31{
     width: 70px;
+    text-align: center;
 }
 .results-inputs.table-commission{
     text-align: center;
