@@ -411,6 +411,11 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 }
 .top-after-btns-item{
     display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.top-after-btns-item-itog.top-after-btns-item{
+    display: flex;
     align-items: flex-end;
     padding-top: 20px;
     flex-direction: column;
