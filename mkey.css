@@ -464,6 +464,9 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 {
     width: 30px;
 }
+.results-inputs.table-percent{
+    text-align: center;
+}
 .table-mary-key{
     border-collapse: collapse;
     margin-left: 20px;
@@ -482,7 +485,7 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
     padding-left: 0;
 }
 .table-mary-key td.last-td{
-    text-align: left;
+    text-align: center;
     border: 1px solid #e74783;
 }
 .table-small-container .table-name,
@@ -635,6 +638,9 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 #biggestdirectorNum21,
 #biggestdirectorNum31{
     width: 70px;
+}
+.results-inputs.table-commission{
+    text-align: center;
 }
 #base{
     width: 60px;
