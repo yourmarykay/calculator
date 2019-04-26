@@ -411,8 +411,9 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 }
 .top-after-btns-item{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     padding-top: 20px;
+    flex-direction: column;
 }
 .top-after-btns-item > label{
     padding-bottom: 0;
@@ -426,15 +427,16 @@ input[name="radioBtn"]:checked + .mary-key-radiolabel::before{
 }
 #itogLabel{
     font-family: 'MaryKay';
-    font-size: 25px;
+    font-size: 32px;
     color: #e74783;
-    padding-right: 10px;
+    align-self: center;
 }
 #itog{
     width: 200px;
     font-family: 'MaryKay';
-    font-size: 26px;
+    font-size: 32px;
     color: #e74783;
+    text-align: right;
 }
 
 /*warning*/
