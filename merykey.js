@@ -1081,7 +1081,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function plusShortTable(){
         var tableShortChangeRowspan = document.querySelector('#tableShortChangeRowspan'); // добавляем значение rowspan
         var thisRowspan = tableShortChangeRowspan.getAttribute('rowspan');
-        tableShortChangeRowspan.setAttribute('rowspan', thisRowspan + 1);
+        tableShortChangeRowspan.setAttribute('rowspan', +thisRowspan + 1);
 
         var allTrR = document.querySelectorAll('.table-rows-group-sm');
         var dirCounter = allTrR.length + 1;
