@@ -1083,7 +1083,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         var allTrR = document.querySelectorAll('.table-rows-group-sm');
         //var thisRowspan = tableShortChangeRowspan.getAttribute('rowspan');
-        tableShortChangeRowspan.setAttribute('rowspan', allTrR.length);
+        tableShortChangeRowspan.setAttribute('rowspan', allTrR.length + 1);
         var dirCounter = allTrR.length + 1;
         var innerContent = '<td><input type="text" value="Директор '+ dirCounter + ' " class="table-name change-inputs"></td>\n' +
                      '<td><input type="text" value="" class="table-volume-sm change-inputs"></td>\n';
@@ -1120,6 +1120,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function minusShortTable(){
         var allTr = document.querySelectorAll('.table-rows-group-sm');
+        var tableShortChangeRowspan = document.querySelector('#tableShortChangeRowspan'); // добавляем значение rowspan
+        tableShortChangeRowspan.setAttribute('rowspan', allTrR.length + 1);
+            
         if(allTr.length >= 2) {
             var deleteElement = document.querySelector('.table-rows-group-sm:last-child');
             deleteElement.parentNode.removeChild(deleteElement);
